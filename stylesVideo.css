@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    text-align: center;
+}   
+
+header{
+    background-color: #ffffffc5;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: #26e60058;
+    padding: 5px;
+    color: white;
+}
+
+nav{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+nav>a:hover{
+    text-decoration: underline;
+    background-color: rgba(126, 126, 126, 0.55);
+    opacity: 90%;
+}
+
+main{
+    background-color:#ffffffcb;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#lado{
+    width: 300px;
+    height: 180px;
+    background-color: #2AB200;
+    padding: 5px;
+    float: right;
+    border-radius: 8px;
+    box-shadow: 5px 5px 9px black;
+} 
+
+
+article{
+    background-color: rgba(159, 159, 159, 0.329);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+article> aside{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 1px;
+    text-align: center;
+}
+
+footer{
+    background-color:rgba(0, 255, 8, 0.29);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 15px 24px;
+    border-radius: 8px;
+    background-color: #09ff00;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    font-size: 15px;
+}
+
+button > a {
+    text-decoration: none;
+}
+
+button > a:visited{
+    color: white;
+}
+
+
+h3{
+    left:0;
+    top: 0;
+    position:absolute
+}
+
+.button {
+    font-family:Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    left: 3px;
+    top: 3px;
+
+    font-size:18px; 
+    
+    border-radius:4px;
+    
+    padding-left:10px;
+    
+    padding-right:10px;
+    
+    padding-top:5px;
+    
+    padding-bottom:5px;
+    
+    color:#ffffff;
+    
+    background-color:#000000;
+    
+    outline:none;
+    
+    border:none;
+    
+    cursor:pointer;
+    
+    display:inline-block;
+    
+    text-decoration: none;
+    
+    transition: .4s;
+    
+    }
+    
+    .button:hover {
+    color:#ffffff;
+    
+    background-color:#414141;
+    
+    
+    }

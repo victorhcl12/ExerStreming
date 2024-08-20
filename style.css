@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.header{
+
+    top: 0px;
+    left: 0px;
+    width: 100px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.categorias, .lancamentos, .classicos {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.categorias h2, .lancamentos h2, .classicos h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.categorias nav, .lancamentos nav, .classicos nav {
+    display: flex;
+}
+
+
+
